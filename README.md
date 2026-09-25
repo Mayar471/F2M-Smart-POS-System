@@ -1,36 +1,126 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# F2M Smart POS System
 
-## Getting Started
+A comprehensive restaurant Point of Sale (POS) system built with modern web technologies, designed to streamline restaurant operations with an intuitive interface and powerful management features.
 
-First, run the development server:
+## 🚀 Live Demo
 
+[View Live Demo on Vercel](#) *(Link will be added after deployment)*
+
+## ✨ Features
+
+### Point of Sale (POS)
+- Real-time order management and cart system
+- Product grid with categories and search
+- Order status tracking (Pending, Preparing, Ready, Served)
+- Receipt printing support
+- Shift timer and management
+
+### Manager Dashboard
+- **Analytics**: Revenue charts, order statistics, and performance metrics
+- **Menu Management**: Add, edit, and delete menu items with images
+- **Inventory Control**: Track stock levels and product availability
+- **Shift Management**: Open/close shifts with revenue tracking
+- **Role-Based Access**: Separate interfaces for POS operators and managers
+
+### Technical Features
+- **Authentication**: Secure login system with NextAuth.js
+- **Database**: SQLite with Drizzle ORM for efficient data management
+- **Offline Support**: Service Worker for offline functionality
+- **Responsive Design**: Mobile-friendly interface with Tailwind CSS
+- **Real-time Updates**: React state management with Zustand
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Next.js 14, React 18, TypeScript
+- **Styling**: Tailwind CSS, CVA (Class Variance Authority)
+- **Database**: SQLite with Drizzle ORM
+- **Authentication**: NextAuth.js v4
+- **State Management**: Zustand
+- **Charts**: Recharts for analytics
+- **Testing**: Vitest, React Testing Library
+
+## 📋 Prerequisites
+
+- Node.js 18+ 
+- npm, yarn, or pnpm
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Mayar471/F2M-Smart-POS-System.git
+   cd f2m-smart-pos
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Set up environment variables**
+   Create a `.env.local` file:
+   ```env
+   NEXTAUTH_SECRET=your-secret-key
+   NEXTAUTH_URL=http://localhost:3000
+   ```
+
+4. **Initialize the database**
+   ```bash
+   npm run db:seed
+   ```
+
+5. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+6. **Open in browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
+## 🧪 Testing
+
+Run the test suite:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm test
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🏗️ Building for Production
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+npm start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌐 Deployment
 
-## Learn More
+### Vercel (Recommended)
+1. Push your code to GitHub
+2. Import the repository in [Vercel](https://vercel.com/new)
+3. Vercel will automatically detect Next.js and configure the build
+4. Add environment variables in Vercel dashboard
+5. Deploy!
 
-To learn more about Next.js, take a look at the following resources:
+### Other Platforms
+This Next.js application can be deployed to any platform that supports Node.js, including:
+- Netlify
+- Railway
+- Render
+- AWS Amplify
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📱 Default Credentials
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+After running the database seed, you can log in with:
+- **Username**: `admin`
+- **Password**: `admin123`
 
-## Deploy on Vercel
+## 🤝 Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 📞 Contact
+
+For questions or feedback, please open an issue on GitHub.
