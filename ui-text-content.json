@@ -1,0 +1,230 @@
+{
+  "landing_page": {
+    "header": {
+      "brand_name": "F2M BURGER",
+      "tagline": "نظام نقاط البيع الذكي"
+    },
+    "main_content": {
+      "restaurant_name": "f2m",
+      "title": "نظام نقاط البيع الذكي",
+      "cashier_button": "دخول الكاشير",
+      "manager_button": "دخول المدير"
+    },
+    "features": {
+      "speed": "سرعة البيع",
+      "security": "رقابة مالية",
+      "reports": "تقارير فورية"
+    },
+    "footer": {
+      "location": "مدينة النبك"
+    }
+  },
+  "pos_page": {
+    "header": {
+      "brand_name": "F2M BURGER",
+      "tagline": "Gourmet Flavors, Sustainably Crafted",
+      "daily_orders": "طلبات اليوم",
+      "back_button": "الخلف"
+    },
+    "footer": {
+      "brand": "F2M",
+      "location": "مدينة النبك",
+      "control_panel": "لوحة التحكم"
+    }
+  },
+  "order_cart": {
+    "edit_mode": {
+      "banner": "تعديل الطلب النشط",
+      "cancel_edit_title": "إلغاء التعديل"
+    },
+    "header": {
+      "title": "الطلب الحالي",
+      "items_count_one": "صنف",
+      "items_count_multiple": "أصناف"
+    },
+    "form_fields": {
+      "customer_name_label": "اسم العميل",
+      "customer_name_placeholder": "صاحب الطلب…",
+      "customer_name_error": "اسم العميل مطلوب",
+      "order_notes_label": "ملاحظات الطلب",
+      "order_notes_placeholder": "مثال: بدون بصل…",
+      "order_type_label": "نوع الطلب"
+    },
+    "order_channels": {
+      "drive_thru": "سيارة",
+      "dine_in": "قاعة",
+      "delivery": "توصيل"
+    },
+    "empty_cart": {
+      "title": "لا توجد أصناف بعد",
+      "subtitle": "اختر من القائمة للإضافة"
+    },
+    "cart_items": {
+      "price_per_item": "ل.س / القطعة"
+    },
+    "footer": {
+      "total": "الإجمالي",
+      "currency": "ل.س",
+      "submit_button_new": "إتمام الطلب",
+      "submit_button_edit": "حفظ التعديلات",
+      "clear_button": "مسح الطلب"
+    },
+    "modals": {
+      "clear_cart_title": "تأكيد مسح السلة",
+      "clear_cart_message": "هل أنت متأكد من مسح جميع الأصناف من السلة؟",
+      "cancel_button": "إلغاء",
+      "confirm_button": "مسح"
+    }
+  },
+  "active_orders_table": {
+    "header": {
+      "title": "الطلبات النشطة"
+    },
+    "table": {
+      "order_number": "رقم الطلب",
+      "customer_name": "اسم العميل",
+      "order_type": "نوع الطلب",
+      "total": "الإجمالي",
+      "actions": "الإجراءات"
+    },
+    "order_channels": {
+      "drive_thru": "سيارة",
+      "dine_in": "قاعة",
+      "delivery": "توصيل"
+    },
+    "actions": {
+      "edit": "تعديل",
+      "cancel": "إلغاء",
+      "confirm": "تأكيد"
+    },
+    "loading": "جاري التحميل...",
+    "empty": "لا توجد طلبات نشطة",
+    "modals": {
+      "cancel_title": "تأكيد إلغاء الطلب",
+      "cancel_message": "هل أنت متأكد من أنك تريد إلغاء هذا الطلب؟",
+      "cancel_button": "إلغاء",
+      "confirm_button": "تأكيد الإلغاء"
+    }
+  },
+  "order_details": {
+    "edit_mode": {
+      "banner": "تعديل الطلب النشط",
+      "cancel_edit_title": "إلغاء التعديل"
+    },
+    "header": {
+      "title": "تفاصيل الطلب"
+    },
+    "form_fields": {
+      "customer_name_label": "اسم العميل",
+      "customer_name_placeholder": "أدخل اسم العميل",
+      "customer_name_error": "اسم العميل مطلوب",
+      "order_type_label": "نوع الطلب",
+      "order_notes_label": "ملاحظات الطلب",
+      "order_notes_placeholder": "أضف ملاحظات خاصة للطلب...",
+      "order_notes_counter": "/500"
+    },
+    "order_channels": {
+      "drive_thru": "سيارة",
+      "dine_in": "قاعة",
+      "delivery": "توصيل"
+    },
+    "totals": {
+      "subtotal": "المجموع الفرعي",
+      "total": "الإجمالي",
+      "currency": "ل.س"
+    },
+    "actions": {
+      "submit_button_new": "إرسال الطلب",
+      "submit_button_edit": "حفظ التعديلات",
+      "cancel_edit_button": "إلغاء التعديل",
+      "clear_button": "مسح الطلب"
+    },
+    "modals": {
+      "clear_cart_title": "تأكيد مسح السلة",
+      "clear_cart_message": "هل أنت متأكد من مسح جميع الأصناف من السلة؟",
+      "cancel_button": "إلغاء",
+      "confirm_button": "مسح"
+    }
+  },
+  "manager_menu": {
+    "header": {
+      "back_button": "الخلف",
+      "title": "إدارة القائمة",
+      "logout_button": "تسجيل الخروج"
+    },
+    "tabs": {
+      "active": "المنتجات النشطة",
+      "deleted": "سلة المحذوفات"
+    },
+    "products": {
+      "title_active": "المنتجات",
+      "title_deleted": "المنتجات المحذوفة",
+      "add_button": "+ إضافة منتج",
+      "loading": "جاري التحميل...",
+      "empty": "لا توجد منتجات"
+    },
+    "categories": {
+      "title": "إدارة الفئات",
+      "input_placeholder": "اسم الفئة الجديدة",
+      "add_button": "إضافة فئة",
+      "delete_aria": "حذف فئة"
+    },
+    "table": {
+      "image": "الصورة",
+      "name": "الاسم",
+      "price": "السعر",
+      "status": "الحالة",
+      "actions": "الإجراءات",
+      "currency": "ل.س"
+    },
+    "status": {
+      "available": "متوفر",
+      "unavailable": "غير متوفر"
+    },
+    "actions": {
+      "edit": "تعديل",
+      "delete": "حذف",
+      "set_unavailable": "غير متوفر حالياً",
+      "set_available": "متوفر",
+      "restore": "استعادة"
+    },
+    "edit_modal": {
+      "title": "تعديل المنتج",
+      "name_label": "الاسم",
+      "price_label": "السعر",
+      "image_label": "صورة المنتج",
+      "upload_text": "اضغط لرفع صورة جديدة",
+      "choose_image": "اختر صورة",
+      "available_checkbox": "متوفر",
+      "cancel_button": "إلغاء",
+      "save_button": "حفظ"
+    },
+    "delete_modal": {
+      "title": "تأكيد حذف المنتج",
+      "message": "هل أنت متأكد من حذف المنتج",
+      "cancel_button": "إلغاء",
+      "confirm_button": "حذف"
+    }
+  },
+  "common": {
+    "buttons": {
+      "cancel": "إلغاء",
+      "confirm": "تأكيد",
+      "save": "حفظ",
+      "delete": "حذف",
+      "edit": "تعديل",
+      "add": "إضافة",
+      "back": "الخلف",
+      "submit": "إرسال",
+      "clear": "مسح"
+    },
+    "errors": {
+      "required": "مطلوب",
+      "invalid": "بيانات غير صالحة",
+      "loading_failed": "فشل في التحميل",
+      "operation_failed": "فشلت العملية"
+    },
+    "loading": "جاري التحميل...",
+    "empty": "لا توجد بيانات"
+  }
+}
